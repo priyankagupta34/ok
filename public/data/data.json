@@ -105,7 +105,25 @@
                             "isFolder": true,
                             "insiders": [
                               { "name": "Crimen.jss", "isFolder": false },
-                              { "name": "Rifo.css", "isFolder": false }
+                              { "name": "Rifo.css", "isFolder": false },
+                              {
+                                "name": "NiffyCry",
+                                "isFolder": true,
+                                "insiders": [
+                                  {
+                                    "name": "Greg.css",
+                                    "isFolder": false
+                                  },
+                                  {
+                                    "name": "Sillica.css",
+                                    "isFolder": false
+                                  },
+                                  {
+                                    "name": "Crimen.css",
+                                    "isFolder": false
+                                  }
+                                ]
+                              }
                             ]
                           }
                         ]
