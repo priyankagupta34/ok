@@ -62,11 +62,8 @@
 }
 
 .folderStyleShow {
-  padding: 2px 0 0 20px;
-  box-shadow: -1px 1px 3px 0 rgb(184, 184, 20);
-  /* border-left: 2px solid rgb(128, 128, 248); */
-  /* width: 150px; */
-  padding: 10px;
-  /* margin: 10px; */
+  box-shadow: -1px 1px 3px 0 #b8b814;
+  padding: 15px;
   margin-top: 0;
+  padding-bottom: 0;
 }
