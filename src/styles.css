@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+
+.gt,
+.movgt {
+  font-size: 0.8em;
+  color: rgb(0, 119, 255);
+  display: inline-block;
+  height: 19px;
+  width: 19px;
+  text-align: center;
+  text-shadow: 0 0 1px black;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 4px;
+  box-shadow: 1px 0 2px 0 gray;
+  border-radius: 1px;
+  border: none;
+}
+
+.movgt {
+  transform: rotate(90deg);
+  box-shadow: 1px 0 2px 0 gray;
+}
+
+.allFolders:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.allFolders:nth-child(2n + 1) {
+  background-color: rgb(238, 235, 235);
+}
+
+.folderShow {
+  position: relative;
+  animation-name: folderShow;
+  animation-duration: 0.3s;
+  /* padding-bottom: 10px; */
+}
+
+@keyframes folderShow {
+  0% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.name {
+  font-size: 0.9em;
+  color: rgb(85, 84, 84);
+}
+
+.folderStyleShow {
+  padding: 2px 0 0 20px;
+  box-shadow: -2px 1px 2px 0 #ded7f7;
+}

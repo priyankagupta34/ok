@@ -1,0 +1,51 @@
+[
+  {
+    "name": "root",
+    "isFolder": true,
+    "insiders": [
+      {
+        "name": "public",
+        "isFolder": true,
+        "insiders": [{ "name": "index.html", "isFolder": false }]
+      },
+      {
+        "name": "src",
+        "isFolder": true,
+        "insiders": [
+          {
+            "name": "component",
+            "isFolder": true,
+            "insiders": [
+              {
+                "name": "Folder.js",
+                "isFolder": false
+              }
+            ]
+          },
+          {
+            "name": "data",
+            "isFolder": true,
+            "insiders": [
+              {
+                "name": "data.json",
+                "isFolder": false
+              }
+            ]
+          },
+          { "name": "index.html", "isFolder": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "root2",
+    "isFolder": true,
+    "insiders": [
+      {
+        "name": "public",
+        "isFolder": true,
+        "insiders": [{ "name": "index.html", "isFolder": false }]
+      }
+    ]
+  }
+]
