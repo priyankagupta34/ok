@@ -10,9 +10,9 @@ export default function Folder({ folder, color }) {
           >
         </span>
       ) : (
-        <span
-          style={{ width: 19, display: "inline-block", marginRight: 4 }}
-        ></span>
+        <span className="gt" style={{ boxShadow: "none", color: "#a3a313" }}>
+          *
+        </span>
       )}
       <span
         className="name"
