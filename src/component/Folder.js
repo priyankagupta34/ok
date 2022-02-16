@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./../styles.css";
 
-export default function Folder({ folder }) {
+export default function Folder({ folder, color }) {
   const [show, setShow] = useState(false);
   return (
     <div className="folderStyleShow">

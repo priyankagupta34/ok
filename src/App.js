@@ -16,7 +16,7 @@ export default function App() {
     <div className="App">
       <h1>Mac Style Folder</h1>
       {folders.map((folder, index) => (
-        <Folder folder={folder} key={index} />
+        <Folder folder={folder} key={index} color="gray" />
       ))}
     </div>
   );
