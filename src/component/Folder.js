@@ -5,10 +5,14 @@ export default function Folder({ folder, color }) {
   const [show, setShow] = useState(false);
   return (
     <div className="folderStyleShow">
-      {folder.isFolder && (
+      {folder.isFolder ? (
         <span className={!show ? "gt" : "movgt"} onClick={() => setShow(!show)}>
           >
         </span>
+      ) : (
+        <span
+          style={{ width: 19, display: "inline-block", marginRight: 4 }}
+        ></span>
       )}
       <span
         className="name"
