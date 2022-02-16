@@ -19,6 +19,194 @@
               {
                 "name": "Folder.js",
                 "isFolder": false
+              },
+              {
+                "name": "FolderTip",
+                "isFolder": true,
+                "insiders": [
+                  {
+                    "name": "Clien.js",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "CSS",
+                    "isFolder": true,
+                    "insiders": [
+                      {
+                        "name": "Clien.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Guffy.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Iroke.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Lament.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Guffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Niffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Liffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "BroCrimen",
+                            "isFolder": true,
+                            "insiders": [
+                              { "name": "Crimen.jss", "isFolder": false },
+                              { "name": "Rifo.css", "isFolder": false }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ClederTip",
+                "isFolder": true,
+                "insiders": [
+                  {
+                    "name": "Rikes.js",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "CSS",
+                    "isFolder": true,
+                    "insiders": [
+                      {
+                        "name": "Clien.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Guffy.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Iroke.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Lament.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Guffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Niffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Liffy",
+                        "isFolder": true,
+                        "insiders": [
+                          {
+                            "name": "Greg.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Sillica.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "Crimen.css",
+                            "isFolder": false
+                          },
+                          {
+                            "name": "BroCrimen",
+                            "isFolder": true,
+                            "insiders": [
+                              { "name": "Crimen.jss", "isFolder": false },
+                              { "name": "Rifo.css", "isFolder": false }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -44,7 +232,103 @@
       {
         "name": "public",
         "isFolder": true,
-        "insiders": [{ "name": "index.html", "isFolder": false }]
+        "insiders": [
+          { "name": "index.html", "isFolder": false },
+          {
+            "name": "FolderTip",
+            "isFolder": true,
+            "insiders": [
+              {
+                "name": "Clien.js",
+                "isFolder": false
+              },
+              {
+                "name": "CSS",
+                "isFolder": true,
+                "insiders": [
+                  {
+                    "name": "Clien.css",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "Guffy.css",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "Iroke.css",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "Lament.css",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "Guffy",
+                    "isFolder": true,
+                    "insiders": [
+                      {
+                        "name": "Greg.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Sillica.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Crimen.css",
+                        "isFolder": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Niffy",
+                    "isFolder": true,
+                    "insiders": [
+                      {
+                        "name": "Greg.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Sillica.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Crimen.css",
+                        "isFolder": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Liffy",
+                    "isFolder": true,
+                    "insiders": [
+                      {
+                        "name": "Greg.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Sillica.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "Crimen.css",
+                        "isFolder": false
+                      },
+                      {
+                        "name": "BroCrimen",
+                        "isFolder": true,
+                        "insiders": [
+                          { "name": "Crimen.jss", "isFolder": false },
+                          { "name": "Rifo.css", "isFolder": false }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

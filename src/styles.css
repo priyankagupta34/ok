@@ -12,7 +12,7 @@
 .gt,
 .movgt {
   font-size: 0.8em;
-  color: rgb(0, 119, 255);
+  color: rgb(184, 184, 20);
   display: inline-block;
   height: 19px;
   width: 19px;
@@ -63,9 +63,9 @@
 
 .folderStyleShow {
   padding: 2px 0 0 20px;
-  box-shadow: -2px 2px 2px 0 rgb(128, 128, 248);
+  box-shadow: -2px 2px 2px 0 rgb(184, 184, 20);
   /* border-left: 2px solid rgb(128, 128, 248); */
-  width: 150px;
+  /* width: 150px; */
   padding: 10px;
   /* margin: 10px; */
   margin-top: 0;

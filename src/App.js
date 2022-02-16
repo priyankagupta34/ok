@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Mac Style Folder</h1>
+      <h1 style={{ color: "rgb(184, 184, 20)" }}>Mac Style Folder</h1>
       {folders.map((folder, index) => (
         <Folder folder={folder} key={index} color="gray" />
       ))}

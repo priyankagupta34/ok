@@ -10,7 +10,12 @@ export default function Folder({ folder, color }) {
           >
         </span>
       )}
-      <span className="name">{folder.name}</span>
+      <span
+        className="name"
+        style={{ color: folder.isFolder ? "black" : "gray" }}
+      >
+        {folder.name}
+      </span>
       {folder.isFolder &&
         show &&
         folder.insiders.map((innerFolder, index) => (
